@@ -9,3 +9,134 @@
 html {
     scroll-behavior: smooth;
 }
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+.top-nav {
+    background: #089D49;
+    color: #fff;
+    padding: 10px 12%;
+    text-align: end;
+}
+
+.top-nav ul li {
+    padding-right: 15px;
+    display: inline-block
+}
+
+.top-nav i {
+    padding-right: 4px;
+}
+
+.top-nav a {
+    color: #fff;
+    font-size: 16px;
+}
+
+.bottom-nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 12px 12%;
+    border-bottom: 3px solid #F6F9FF;
+}
+
+.col-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 45%;
+}
+
+.col-2 {
+    flex-basis: 55%;
+}
+
+.logo {
+    width: 150px;
+}
+
+.language {
+    text-align: end;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li {
+    padding: 10px 15px;
+
+}
+
+.menu i {
+    padding-right: 4px;
+}
+
+.menu a {
+    font-size: 16px;
+    color: rgb(60, 60, 60);
+    font-weight: 500;
+}
+
+.menu ul li:hover {
+    background: #089D49;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.language button {
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.language button i {
+    padding-left: 8px;
+}
+
+.top-banner {
+    width: 100%;
+}
+
+.top-banner img {
+    width: 100%;
+    height: auto;
+}
+
+.header-contents {
+    background: #089D49;
+    color: #fff;
+    font: 18px;
+    text-align: center;
+    padding: 30px 16%;
+}
+
+.header-contents .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.header-contents .row .col {
+    flex: 1;
+}
+
+.header-contents .row .col h2 {
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+
+.header-contents .row .col h4 {
+    font-size: 16px;
+}
