@@ -29,11 +29,18 @@
                         <a href="#"><img src="assets/Shohoz_logo_173x74.svg" alt="Shohoz_logo"></a>
                     </div>
                     <div class="menu">
-                        <ul>
+                        <ul id="sidemenu">
                             <li><i class="fa-solid fa-bus"></i><a href="#">Bus</a></li>
                             <li><i class="fa-solid fa-hill-avalanche"></i><a href="#">Launch</a></li>
                             <li><i class="fa-solid fa-train"></i><a href="#">Train</a></li>
+
+                            <i class="fa-solid fa-xmark close" onclick="closemenu()"></i>
+
+                            <div class="lan">
+                                <button>English<i class="fa-solid fa-chevron-down"></i></button>
+                            </div>
                         </ul>
+                        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
                     </div>
                 </div>
                 <div class="col-2">
@@ -83,12 +90,12 @@
     </div>
 
     <!-- Other sections -->
-
     <div class="footer">
         <div class="row">
             <div class="col about">
                 <img src="assets/Shohoz_logo_173x74.svg" alt="Shohoz_logo">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente dolorum eius cum facere natus minima odit earum, harum laboriosam provident?</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente dolorum eius cum facere natus
+                    minima odit earum, harum laboriosam provident?</p>
             </div>
             <div class="col">
                 <h3>Links</h3>
@@ -112,6 +119,18 @@
         </div>
         <p class="copy-right">© 2015-2023 Shohoz · All Rights Reserved</p>
     </div>
+
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemeu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemeu.style.right = "-200px";
+        }
+    </script>
 
 </body>
 
